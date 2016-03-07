@@ -1,0 +1,5 @@
+<ul>
+  {{#each model as |post|}}
+  <li><a href="{{unbound post.url}}">{{post.title}}</a> ({{post.domain}})</li>
+  {{/each}}
+</ul>
